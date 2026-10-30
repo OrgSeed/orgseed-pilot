@@ -1,0 +1,150 @@
+{
+ "order": "b3b-main",
+ "order_slots_sha256": "ebd0b245baa4a84fd48c996040cfd6e0021ae31a18c209df399587f98cdaa629",
+ "series": {
+  "prefix": "b3b-",
+  "tag": "b3b"
+ },
+ "task_path": "\\OrgSeedB3b\\",
+ "spend_cap": {
+  "usd": 40.0,
+  "per_run_usd": {
+   "haiku": 0.76,
+   "glm": 0.7
+  },
+  "reserve_per_run_usd": 0.05,
+  "reserve_fixed_usd": 2.5,
+  "rule": "a new block starts only if ledgered spend (b3b- runs) + other lanes' unfinished committed runs (projected) + this block (projected) + reserve < usd; otherwise the lane pauses and flags"
+ },
+ "fireworks_guard_usd": 14.0,
+ "pause_on_cap": true,
+ "lanes": {
+  "b3b-H1": {
+   "member": "haiku",
+   "lanes_for_member": 2,
+   "index": 0,
+   "port": 18121,
+   "provider": "anthropic",
+   "blocks": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11
+   ],
+   "runs": [
+    "b3b-haiku-01",
+    "b3b-haiku-02",
+    "b3b-haiku-05",
+    "b3b-haiku-06",
+    "b3b-haiku-09",
+    "b3b-haiku-10",
+    "b3b-haiku-13",
+    "b3b-haiku-14",
+    "b3b-haiku-17",
+    "b3b-haiku-18",
+    "b3b-haiku-21",
+    "b3b-haiku-22"
+   ]
+  },
+  "b3b-H2": {
+   "member": "haiku",
+   "lanes_for_member": 2,
+   "index": 1,
+   "port": 18122,
+   "provider": "anthropic",
+   "blocks": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+   ],
+   "runs": [
+    "b3b-haiku-03",
+    "b3b-haiku-04",
+    "b3b-haiku-07",
+    "b3b-haiku-08",
+    "b3b-haiku-11",
+    "b3b-haiku-12",
+    "b3b-haiku-15",
+    "b3b-haiku-16",
+    "b3b-haiku-19",
+    "b3b-haiku-20",
+    "b3b-haiku-23",
+    "b3b-haiku-24"
+   ]
+  },
+  "b3b-G1": {
+   "member": "glm",
+   "lanes_for_member": 3,
+   "index": 0,
+   "port": 18123,
+   "provider": "fireworks",
+   "blocks": [
+    1,
+    4,
+    7,
+    10
+   ],
+   "runs": [
+    "b3b-glm-01",
+    "b3b-glm-02",
+    "b3b-glm-07",
+    "b3b-glm-08",
+    "b3b-glm-13",
+    "b3b-glm-14",
+    "b3b-glm-19",
+    "b3b-glm-20"
+   ]
+  },
+  "b3b-G2": {
+   "member": "glm",
+   "lanes_for_member": 3,
+   "index": 1,
+   "port": 18124,
+   "provider": "fireworks",
+   "blocks": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "runs": [
+    "b3b-glm-03",
+    "b3b-glm-04",
+    "b3b-glm-09",
+    "b3b-glm-10",
+    "b3b-glm-15",
+    "b3b-glm-16",
+    "b3b-glm-21",
+    "b3b-glm-22"
+   ]
+  },
+  "b3b-G3": {
+   "member": "glm",
+   "lanes_for_member": 3,
+   "index": 2,
+   "port": 18125,
+   "provider": "fireworks",
+   "blocks": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "runs": [
+    "b3b-glm-05",
+    "b3b-glm-06",
+    "b3b-glm-11",
+    "b3b-glm-12",
+    "b3b-glm-17",
+    "b3b-glm-18",
+    "b3b-glm-23",
+    "b3b-glm-24"
+   ]
+  }
+ }
+}

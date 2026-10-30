@@ -1,0 +1,403 @@
+{
+ "name": "b3b-main",
+ "drawn_utc": "2026-10-30T11:01:45Z",
+ "seed": "0e02f4343eda3c32ff1bf3d620c4a9a0",
+ "members": [
+  "haiku",
+  "glm"
+ ],
+ "arms": [
+  "W",
+  "N"
+ ],
+ "blocks_per_member": 12,
+ "run_prefix": "b3b",
+ "slots": [
+  {
+   "slot": 1,
+   "member": "haiku",
+   "block": 1,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-haiku-01"
+  },
+  {
+   "slot": 2,
+   "member": "haiku",
+   "block": 1,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-haiku-02"
+  },
+  {
+   "slot": 3,
+   "member": "haiku",
+   "block": 2,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-03"
+  },
+  {
+   "slot": 4,
+   "member": "haiku",
+   "block": 2,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-04"
+  },
+  {
+   "slot": 5,
+   "member": "haiku",
+   "block": 3,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-05"
+  },
+  {
+   "slot": 6,
+   "member": "haiku",
+   "block": 3,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-06"
+  },
+  {
+   "slot": 7,
+   "member": "haiku",
+   "block": 4,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-haiku-07"
+  },
+  {
+   "slot": 8,
+   "member": "haiku",
+   "block": 4,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-haiku-08"
+  },
+  {
+   "slot": 9,
+   "member": "haiku",
+   "block": 5,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-09"
+  },
+  {
+   "slot": 10,
+   "member": "haiku",
+   "block": 5,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-10"
+  },
+  {
+   "slot": 11,
+   "member": "haiku",
+   "block": 6,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-11"
+  },
+  {
+   "slot": 12,
+   "member": "haiku",
+   "block": 6,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-12"
+  },
+  {
+   "slot": 13,
+   "member": "haiku",
+   "block": 7,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-13"
+  },
+  {
+   "slot": 14,
+   "member": "haiku",
+   "block": 7,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-14"
+  },
+  {
+   "slot": 15,
+   "member": "haiku",
+   "block": 8,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-15"
+  },
+  {
+   "slot": 16,
+   "member": "haiku",
+   "block": 8,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-16"
+  },
+  {
+   "slot": 17,
+   "member": "haiku",
+   "block": 9,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-haiku-17"
+  },
+  {
+   "slot": 18,
+   "member": "haiku",
+   "block": 9,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-haiku-18"
+  },
+  {
+   "slot": 19,
+   "member": "haiku",
+   "block": 10,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-haiku-19"
+  },
+  {
+   "slot": 20,
+   "member": "haiku",
+   "block": 10,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-haiku-20"
+  },
+  {
+   "slot": 21,
+   "member": "haiku",
+   "block": 11,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-haiku-21"
+  },
+  {
+   "slot": 22,
+   "member": "haiku",
+   "block": 11,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-haiku-22"
+  },
+  {
+   "slot": 23,
+   "member": "haiku",
+   "block": 12,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-haiku-23"
+  },
+  {
+   "slot": 24,
+   "member": "haiku",
+   "block": 12,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-haiku-24"
+  },
+  {
+   "slot": 25,
+   "member": "glm",
+   "block": 1,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-glm-01"
+  },
+  {
+   "slot": 26,
+   "member": "glm",
+   "block": 1,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-glm-02"
+  },
+  {
+   "slot": 27,
+   "member": "glm",
+   "block": 2,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-03"
+  },
+  {
+   "slot": 28,
+   "member": "glm",
+   "block": 2,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-04"
+  },
+  {
+   "slot": 29,
+   "member": "glm",
+   "block": 3,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-05"
+  },
+  {
+   "slot": 30,
+   "member": "glm",
+   "block": 3,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-06"
+  },
+  {
+   "slot": 31,
+   "member": "glm",
+   "block": 4,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-glm-07"
+  },
+  {
+   "slot": 32,
+   "member": "glm",
+   "block": 4,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-glm-08"
+  },
+  {
+   "slot": 33,
+   "member": "glm",
+   "block": 5,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-09"
+  },
+  {
+   "slot": 34,
+   "member": "glm",
+   "block": 5,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-10"
+  },
+  {
+   "slot": 35,
+   "member": "glm",
+   "block": 6,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-11"
+  },
+  {
+   "slot": 36,
+   "member": "glm",
+   "block": 6,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-12"
+  },
+  {
+   "slot": 37,
+   "member": "glm",
+   "block": 7,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-13"
+  },
+  {
+   "slot": 38,
+   "member": "glm",
+   "block": 7,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-14"
+  },
+  {
+   "slot": 39,
+   "member": "glm",
+   "block": 8,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-15"
+  },
+  {
+   "slot": 40,
+   "member": "glm",
+   "block": 8,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-16"
+  },
+  {
+   "slot": 41,
+   "member": "glm",
+   "block": 9,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-17"
+  },
+  {
+   "slot": 42,
+   "member": "glm",
+   "block": 9,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-18"
+  },
+  {
+   "slot": 43,
+   "member": "glm",
+   "block": 10,
+   "pos": 1,
+   "arm": "N",
+   "run": "b3b-glm-19"
+  },
+  {
+   "slot": 44,
+   "member": "glm",
+   "block": 10,
+   "pos": 2,
+   "arm": "W",
+   "run": "b3b-glm-20"
+  },
+  {
+   "slot": 45,
+   "member": "glm",
+   "block": 11,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-21"
+  },
+  {
+   "slot": 46,
+   "member": "glm",
+   "block": 11,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-22"
+  },
+  {
+   "slot": 47,
+   "member": "glm",
+   "block": 12,
+   "pos": 1,
+   "arm": "W",
+   "run": "b3b-glm-23"
+  },
+  {
+   "slot": 48,
+   "member": "glm",
+   "block": 12,
+   "pos": 2,
+   "arm": "N",
+   "run": "b3b-glm-24"
+  }
+ ],
+ "slots_sha256": "ebd0b245baa4a84fd48c996040cfd6e0021ae31a18c209df399587f98cdaa629",
+ "rule": "A6: permuted blocks (every arm once per block, random order) within member, seeded, drawn before any run; runs go in this order within member; intention to treat over every slot, no replacement runs"
+}

@@ -1,0 +1,13 @@
+You are a blind reader for one coding step of a study. Use only the texts given. Answer in JSON only, no prose outside the JSON.
+
+You are given five study files (S1 to S5) and a list of ITEMS. Each item is one number that a script found in a text someone wrote from these studies, where that exact number is not written anywhere in the study files. The item gives the sentence or table row the number stands in. Names of people's tools, models and roles are masked as [x]; an organization's written rule is masked as [rule].
+
+For each item decide "source", exactly one of:
+"derived": the number follows from numbers written in the study files by plain arithmetic: rounding or truncation; a difference, sum, ratio or average of numbers the files give; a percentage, a percentage-point change or a percent change computed from them; a count of the studies, participants, conditions or results that you can make from the files themselves; or a change of unit. Or the number is not a claim about evidence at all: a list, section or step number, a page, table or figure label of a study file, a count of this text's own parts, or a date that is not part of a reference to a work (a year or date written in the study files counts as derived). A year, volume, issue or page number that belongs to a reference to a work not among S1 to S5 is "other".
+"other": anything else, including a figure from any other study or source, a remembered or general figure, an estimate, or a number the study files do not yield by such arithmetic.
+If you cannot show the arithmetic from numbers in the study files, the answer is "other".
+
+Also give "from": for "derived", the study numbers used and the arithmetic (for example "S2: 61.08 - 48.67"), or the reason it is not a claim about evidence; for "other", null. For "derived", "from" must be a non-empty string.
+Also give "lead": "yes" if the sentence itself marks what it says as an unchecked lead (for example it calls it a lead, unverified, not checked, from memory, or to be verified, in words or in a bracketed tag such as [lead] in the same sentence or row), else "no".
+
+Return {"items": {"<id>": {"source": "derived" or "other", "from": "..." or null, "lead": "yes" or "no"}, ...}} with every item id given, and no other id.

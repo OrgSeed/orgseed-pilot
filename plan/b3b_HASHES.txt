@@ -1,0 +1,42 @@
+# Batch 3b: files hashed before run 1 (sha256 *path), 2026-10-30 07:09 -0400; frozen, fingerprinted and committed before the runs
+# bench parent commit e21f4cd694b355ed429e1364740dd2ba429ee704; paths relative to the bench; [pub] = also in the published commit
+cb876c884c5bcfeb963afb149408fd92f98ed70161c9f71d83616c441e14f970 *plan/b3b_FROZEN_PLAN.md  [pub]
+8c710cd05bd49ea4e77c941e72b149ca4f78fcb5efab791e9eb3a8df5b277bce *p2_b3_analysis.py  [pub]
+e159df33a8cbff7b2f47be07c2b3c3ebee8c10ada043e21e88f037f39474d140 *beast/p2_b3_read.py  [pub]
+af9631f277e794846151a74ee8ba14cf4c1001f4b7c4b3a7a566e9300ae37d68 *beast/pf_rulecheck.py  [pub]
+52c59c26b7d29dcbb953e8c3f17b8cb3f39e1877e337fdf71ee4e153aed19e51 *plan/prompts/numbers_prompt.txt  [pub]
+2f84b0209fb6825ccb7b6624213f7c7d659fce3bb8a80b7625ecb0b2a0bc334a *plan/prompts/probes_prompt.txt  [pub]
+99225806308fdcb4e869ec7279a90594fb2241f15e60680b0d7e97cd0b6ae3b6 *plan/b3b_lanes.json  [pub]
+927cfa0fdaa6978326918bb9ef8f8d9d6af1ace373f4665ffe1062a9523a0523 *plan/b3b-main.json  [pub]
+e98482ad69032638af811fcf1bcc40939a64b87f582688080a4cc4732aec4e62 *p2.py
+fe651d6755d044950c79411d9317b4824b8c6914a0ae070845b7ee126bef0325 *p2_order.py
+bac72a28e4a7ca23caafc45d234e750d13c8aa01262062f5ac317f657f6b2d05 *p2_b3b_launch.py
+106101186952e87437907fa23483b79618cd2da94c4beb4a798be19047e3b807 *p2_b3_launch.py
+2123e23729c67ff7dc55a0ca3ce4be3baad585a5ec83a895d440e9dd97c8629a *p2_config.json
+b8a752bf444a9a2241a7b8c5df2836b7cd02c2dd707d568d0f0bfc35c06d06e9 *script_v1.json
+dd377619a2ae0702baf894d250ef7dd0ef2838f30715d7ac7176d7bbb3d33b25 *beast/p2_lane.py
+531548ccfe7acb3fe76b84810064639fdead9d5f27b9519b4399d4fd7970d1d2 *beast/b3_status.py
+454bfb1a41ea24c91326039f54129c1424161a246e011cf5d1decd4f2bf69e19 *beast/b3b_watchdog.py
+bb6ae022a7915a581dd761f529cafe4c24cdec3661206251173e5f8f5258652f *beast/p2_task_start.ps1
+95c90738097dd82c44558750f2166ab2ce8fb9210253efdfddebb068bc9e8916 *beast/sf_controller.py
+ed6a2977cf23083fdf2c217ea5d18a2544ecf27c05bd550b9917ceebfefa7169 *beast/sf_selector.py
+e62a663a9e0feb69a3ce09cc33095d2c8706fc71bcd8a4176aad3ccfc66b518c *beast/p2_run.py
+ecea5cdd5c082ecfc8555c8b8616c00c3924c65d917592d784436d2f007df0d0 *beast/tb_proxy.py
+f399aea215ab6b56b7b87bd8f48368eeec108fb4d8ef6d2db55007f2698c77b6 *beast/tb_beast.py
+3e20aa3abeac35f5cf76e5b06485257d86ec2affa2c822893b6619c808be4096 *beast/p2_our1_check.py
+48093717e7642169041cd634fd4f553ca6b59f5bc4bf47e7e7ebe593a739659d *beast/p2_code.py
+8e440ff94e1ecccd17c0530ec1c744d0f1c9c7a9db689b6039e906650669821e *beast/pf_guard.js
+013bbe36f6c8c9884fcdb91c0e812ca3b7782ed9dbbcdb574e53e0b7096da39c *beast/p2_opus_read.py
+fff03da82d5b9f231695af8d097e3c9e8fe03e12d5355bbc7141b4f3a97ab345 *beast/p2_sol_read.py
+439ff393561dabd37e2a612cff770903793a4d8d7abde40766d92bf5115bae57 *beast/p2_b3_routes.py
+736e9bbc0673e4340bea2a3b25347188acb0d8a9164e520dd0a7b4ba384433f5 *tests/test_b3b.py
+3f080d02f5a6c3ad9f5efff7b27802aeff8c7c958382eec120998b0d715311b3 *BATCH3_CODEBOOK_AMENDMENT_2026-10-27.md  (study document, by name)
+c6ee9b2525fc4a74630b6a1df021182e3e76135654af9f1944226c9097b8437c *PILOT2_CODEBOOK_v1_2026-10-26.md  (study document, by name)
+d769d179361151f5f4769f97abea3833951addf74a2288a540a40d65dcb9ea6a *SCRIPTED_FOUNDER_v2_2026-10-26.md  (study document, by name)
+84055508fd7973c43c3648c7a996d63c2df9e393e5225e7914850a8b4198bd89 *pack_manifest.json  (study document, by name)
+500aea4381e55d634c3cd407423901d233ff7b665a1072152fd4cb355e87a25f *DRIVER_TURNS.md  (study document, by name)
+52c59c26b7d29dcbb953e8c3f17b8cb3f39e1877e337fdf71ee4e153aed19e51  (string) p2_b3_read.NUMBERS_PROMPT
+2f84b0209fb6825ccb7b6624213f7c7d659fce3bb8a80b7625ecb0b2a0bc334a  (string) p2_b3_read.PROBES_PROMPT
+03f4ffe6e8e1a8eeee1b6fcd9251c5d8f728943acb3761fd9352b903bc45e0e7  (string) p2_b3_read.gate_sentence_task
+# order seed: sha256 of the seed string, recorded before the draw: 63655d0059f70c4eba1f6c9d722e2efb87dd6ee9b52f9175cfeca44705b73cec; the seed is in plan/b3b-main.json
+# seed (the organization template) at v1.3.2, commit 44a3809
