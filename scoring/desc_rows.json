@@ -1,0 +1,2954 @@
+[
+ {
+  "slot": 1,
+  "member": "haiku",
+  "block": 1,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-haiku-01",
+  "ran": true,
+  "end": "2026-10-30T07:36:05",
+  "hours": 0.255,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {
+   "http_599": 1
+  },
+  "calls": {
+   "member": 116,
+   "founder": 25
+  },
+  "usd": {
+   "member|anthropic": 0.4514,
+   "founder|anthropic": 0.1875
+  },
+  "usd_total": 0.6389,
+  "l17": true,
+  "att": 8,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 2,
+  "member": "haiku",
+  "block": 1,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-haiku-02",
+  "ran": true,
+  "end": "2026-10-30T07:49:29",
+  "hours": 0.223,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "N",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 111,
+   "founder": 26
+  },
+  "usd": {
+   "member|anthropic": 0.3512,
+   "founder|anthropic": 0.1844
+  },
+  "usd_total": 0.5356,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 3,
+  "member": "haiku",
+  "block": 2,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-03",
+  "ran": true,
+  "end": "2026-10-30T07:34:03",
+  "hours": 0.219,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "N",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {
+   "http_599": 1
+  },
+  "calls": {
+   "member": 105,
+   "founder": 24
+  },
+  "usd": {
+   "member|anthropic": 0.4044,
+   "founder|anthropic": 0.1734
+  },
+  "usd_total": 0.5778,
+  "l17": true,
+  "att": 5,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 4,
+  "member": "haiku",
+  "block": 2,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-04",
+  "ran": true,
+  "end": "2026-10-30T07:46:28",
+  "hours": 0.207,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 28,
+  "sel": {
+   "arm": "W",
+   "decisions": 23,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 23
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 91,
+   "founder": 23
+  },
+  "usd": {
+   "member|anthropic": 0.3116,
+   "founder|anthropic": 0.1719
+  },
+  "usd_total": 0.4835,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 5,
+  "member": "haiku",
+  "block": 3,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-05",
+  "ran": true,
+  "end": "2026-10-30T08:02:21",
+  "hours": 0.214,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 99,
+   "founder": 27
+  },
+  "usd": {
+   "member|anthropic": 0.3343,
+   "founder|anthropic": 0.1938
+  },
+  "usd_total": 0.5281,
+  "l17": true,
+  "att": 4,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 6,
+  "member": "haiku",
+  "block": 3,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-06",
+  "ran": true,
+  "end": "2026-10-30T08:17:21",
+  "hours": 0.249,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 35,
+  "sel": {
+   "arm": "W",
+   "decisions": 30,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 31
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 112,
+   "founder": 31
+  },
+  "usd": {
+   "member|anthropic": 0.5224,
+   "founder|anthropic": 0.2261
+  },
+  "usd_total": 0.7485,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 7,
+  "member": "haiku",
+  "block": 4,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-haiku-07",
+  "ran": true,
+  "end": "2026-10-30T08:04:12",
+  "hours": 0.295,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": false,
+  "found_typed": false,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 1,
+  "flags": [
+   "forced advance (F limit) at turn 17",
+   "forced advance (F limit) at turn 20"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 6,
+  "guards": [],
+  "turns": 36,
+  "sel": {
+   "arm": "W",
+   "decisions": 31,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 32
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 147,
+   "founder": 32
+  },
+  "usd": {
+   "member|anthropic": 0.7639,
+   "founder|anthropic": 0.2489
+  },
+  "usd_total": 1.0128,
+  "l17": true,
+  "att": 10,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 8,
+  "member": "haiku",
+  "block": 4,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-haiku-08",
+  "ran": true,
+  "end": "2026-10-30T08:17:28",
+  "hours": 0.22,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 15"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 110,
+   "founder": 27
+  },
+  "usd": {
+   "member|anthropic": 0.3526,
+   "founder|anthropic": 0.1869
+  },
+  "usd_total": 0.5395,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 9,
+  "member": "haiku",
+  "block": 5,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-09",
+  "ran": true,
+  "end": "2026-10-30T08:30:50",
+  "hours": 0.224,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "N",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 89,
+   "founder": 26
+  },
+  "usd": {
+   "member|anthropic": 0.2859,
+   "founder|anthropic": 0.1941
+  },
+  "usd_total": 0.48,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 10,
+  "member": "haiku",
+  "block": 5,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-10",
+  "ran": true,
+  "end": "2026-10-30T08:45:37",
+  "hours": 0.246,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 120,
+   "founder": 25
+  },
+  "usd": {
+   "member|anthropic": 0.5776,
+   "founder|anthropic": 0.1829
+  },
+  "usd_total": 0.7605,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 11,
+  "member": "haiku",
+  "block": 6,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-11",
+  "ran": true,
+  "end": "2026-10-30T08:29:16",
+  "hours": 0.196,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "N",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 94,
+   "founder": 25
+  },
+  "usd": {
+   "member|anthropic": 0.2215,
+   "founder|anthropic": 0.1689
+  },
+  "usd_total": 0.3904,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 12,
+  "member": "haiku",
+  "block": 6,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-12",
+  "ran": true,
+  "end": "2026-10-30T08:42:47",
+  "hours": 0.225,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 98,
+   "founder": 25
+  },
+  "usd": {
+   "member|anthropic": 0.2976,
+   "founder|anthropic": 0.194
+  },
+  "usd_total": 0.4916,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 13,
+  "member": "haiku",
+  "block": 7,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-13",
+  "ran": true,
+  "end": "2026-10-30T09:01:28",
+  "hours": 0.264,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 13"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "N",
+   "decisions": 25,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 119,
+   "founder": 26
+  },
+  "usd": {
+   "member|anthropic": 0.4067,
+   "founder|anthropic": 0.205
+  },
+  "usd_total": 0.6117,
+  "l17": true,
+  "att": 8,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 14,
+  "member": "haiku",
+  "block": 7,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-14",
+  "ran": true,
+  "end": "2026-10-30T09:18:23",
+  "hours": 0.281,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 3,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 8,
+  "guards": [],
+  "turns": 41,
+  "sel": {
+   "arm": "W",
+   "decisions": 36,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 37
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 150,
+   "founder": 37
+  },
+  "usd": {
+   "member|anthropic": 0.5454,
+   "founder|anthropic": 0.2936
+  },
+  "usd_total": 0.839,
+  "l17": true,
+  "att": 3,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 15,
+  "member": "haiku",
+  "block": 8,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-15",
+  "ran": true,
+  "end": "2026-10-30T08:58:27",
+  "hours": 0.261,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 117,
+   "founder": 27
+  },
+  "usd": {
+   "member|anthropic": 0.4367,
+   "founder|anthropic": 0.2014
+  },
+  "usd_total": 0.6381,
+  "l17": true,
+  "att": 4,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 16,
+  "member": "haiku",
+  "block": 8,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-16",
+  "ran": true,
+  "end": "2026-10-30T09:13:33",
+  "hours": 0.251,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 34,
+  "sel": {
+   "arm": "W",
+   "decisions": 29,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 29
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 132,
+   "founder": 29
+  },
+  "usd": {
+   "member|anthropic": 0.3767,
+   "founder|anthropic": 0.2141
+  },
+  "usd_total": 0.5908,
+  "l17": true,
+  "att": 5,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 17,
+  "member": "haiku",
+  "block": 9,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-haiku-17",
+  "ran": true,
+  "end": "2026-10-30T09:31:52",
+  "hours": 0.224,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 33,
+  "sel": {
+   "arm": "N",
+   "decisions": 28,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 28
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 126,
+   "founder": 28
+  },
+  "usd": {
+   "member|anthropic": 0.3181,
+   "founder|anthropic": 0.2054
+  },
+  "usd_total": 0.5236,
+  "l17": true,
+  "att": 4,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 18,
+  "member": "haiku",
+  "block": 9,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-haiku-18",
+  "ran": true,
+  "end": "2026-10-30T09:45:42",
+  "hours": 0.23,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "W",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {
+   "http_599": 1
+  },
+  "calls": {
+   "member": 120,
+   "founder": 26
+  },
+  "usd": {
+   "member|anthropic": 0.4092,
+   "founder|anthropic": 0.1679
+  },
+  "usd_total": 0.5771,
+  "l17": true,
+  "att": 5,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 19,
+  "member": "haiku",
+  "block": 10,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-haiku-19",
+  "ran": true,
+  "end": "2026-10-30T09:26:48",
+  "hours": 0.22,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "W",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 104,
+   "founder": 24
+  },
+  "usd": {
+   "member|anthropic": 0.4525,
+   "founder|anthropic": 0.1638
+  },
+  "usd_total": 0.6163,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 20,
+  "member": "haiku",
+  "block": 10,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-haiku-20",
+  "ran": true,
+  "end": "2026-10-30T09:41:56",
+  "hours": 0.251,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "N",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {
+   "http_599": 1
+  },
+  "calls": {
+   "member": 110,
+   "founder": 24
+  },
+  "usd": {
+   "member|anthropic": 0.5723,
+   "founder|anthropic": 0.1811
+  },
+  "usd_total": 0.7533,
+  "l17": true,
+  "att": 3,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 21,
+  "member": "haiku",
+  "block": 11,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-haiku-21",
+  "ran": true,
+  "end": "2026-10-30T10:00:21",
+  "hours": 0.244,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "W",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 111,
+   "founder": 27
+  },
+  "usd": {
+   "member|anthropic": 0.4636,
+   "founder|anthropic": 0.1947
+  },
+  "usd_total": 0.6584,
+  "l17": true,
+  "att": 4,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 22,
+  "member": "haiku",
+  "block": 11,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-haiku-22",
+  "ran": true,
+  "end": "2026-10-30T10:15:06",
+  "hours": 0.245,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 33,
+  "sel": {
+   "arm": "N",
+   "decisions": 28,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 29
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 119,
+   "founder": 29
+  },
+  "usd": {
+   "member|anthropic": 0.4625,
+   "founder|anthropic": 0.2263
+  },
+  "usd_total": 0.6888,
+  "l17": true,
+  "att": 3,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 23,
+  "member": "haiku",
+  "block": 12,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-haiku-23",
+  "ran": true,
+  "end": "2026-10-30T09:56:30",
+  "hours": 0.242,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "W",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 124,
+   "founder": 26
+  },
+  "usd": {
+   "member|anthropic": 0.593,
+   "founder|anthropic": 0.1935
+  },
+  "usd_total": 0.7865,
+  "l17": true,
+  "att": 9,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 24,
+  "member": "haiku",
+  "block": 12,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-haiku-24",
+  "ran": true,
+  "end": "2026-10-30T10:10:00",
+  "hours": 0.224,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 28"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 117,
+   "founder": 27
+  },
+  "usd": {
+   "member|anthropic": 0.3455,
+   "founder|anthropic": 0.1957
+  },
+  "usd_total": 0.5413,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 25,
+  "member": "glm",
+  "block": 1,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-glm-01",
+  "ran": true,
+  "end": "2026-10-30T07:39:24",
+  "hours": 0.307,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "N",
+   "decisions": 25,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {
+   "http_599": 1
+  },
+  "calls": {
+   "member": 132,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3778,
+   "founder|anthropic": 0.1697
+  },
+  "usd_total": 0.5474,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 26,
+  "member": "glm",
+  "block": 1,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-glm-02",
+  "ran": true,
+  "end": "2026-10-30T07:57:37",
+  "hours": 0.303,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "W",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 161,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3876,
+   "founder|anthropic": 0.1809
+  },
+  "usd_total": 0.5685,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 27,
+  "member": "glm",
+  "block": 2,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-03",
+  "ran": true,
+  "end": "2026-10-30T07:36:11",
+  "hours": 0.252,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "W",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 132,
+   "founder": 24
+  },
+  "usd": {
+   "member|fireworks": 0.2913,
+   "founder|anthropic": 0.1661
+  },
+  "usd_total": 0.4573,
+  "l17": true,
+  "att": 2,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 28,
+  "member": "glm",
+  "block": 2,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-04",
+  "ran": true,
+  "end": "2026-10-30T07:56:23",
+  "hours": 0.336,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": false,
+  "found_typed": false,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "b",
+    "the founding decides more than modules: ['module', 'role']"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 4,
+  "guards": [],
+  "turns": 35,
+  "sel": {
+   "arm": "N",
+   "decisions": 30,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 30
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 152,
+   "founder": 30
+  },
+  "usd": {
+   "member|fireworks": 0.3769,
+   "founder|anthropic": 0.2088
+  },
+  "usd_total": 0.5857,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 29,
+  "member": "glm",
+  "block": 3,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-05",
+  "ran": true,
+  "end": "2026-10-30T07:38:35",
+  "hours": 0.29,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 1,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 122,
+   "founder": 25
+  },
+  "usd": {
+   "member|fireworks": 0.3458,
+   "founder|anthropic": 0.1755
+  },
+  "usd_total": 0.5213,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 1
+ },
+ {
+  "slot": 30,
+  "member": "glm",
+  "block": 3,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-06",
+  "ran": true,
+  "end": "2026-10-30T07:56:29",
+  "hours": 0.298,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "N",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 147,
+   "founder": 25
+  },
+  "usd": {
+   "member|fireworks": 0.3941,
+   "founder|anthropic": 0.1847
+  },
+  "usd_total": 0.5787,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 31,
+  "member": "glm",
+  "block": 4,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-glm-07",
+  "ran": true,
+  "end": "2026-10-30T08:18:17",
+  "hours": 0.344,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": false,
+  "found_typed": false,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "b",
+    "the founding decides more than modules: ['module', 'role_instance']"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 39,
+  "sel": {
+   "arm": "N",
+   "decisions": 34,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 35
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 168,
+   "founder": 35
+  },
+  "usd": {
+   "member|fireworks": 0.4136,
+   "founder|anthropic": 0.2829
+  },
+  "usd_total": 0.6966,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 32,
+  "member": "glm",
+  "block": 4,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-glm-08",
+  "ran": true,
+  "end": "2026-10-30T08:38:06",
+  "hours": 0.33,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 36,
+  "sel": {
+   "arm": "W",
+   "decisions": 31,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 32
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 150,
+   "founder": 32
+  },
+  "usd": {
+   "member|fireworks": 0.4302,
+   "founder|anthropic": 0.2321
+  },
+  "usd_total": 0.6623,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 33,
+  "member": "glm",
+  "block": 5,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-09",
+  "ran": true,
+  "end": "2026-10-30T08:15:31",
+  "hours": 0.318,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "W",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 133,
+   "founder": 27
+  },
+  "usd": {
+   "member|fireworks": 0.3566,
+   "founder|anthropic": 0.185
+  },
+  "usd_total": 0.5416,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 34,
+  "member": "glm",
+  "block": 5,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-10",
+  "ran": true,
+  "end": "2026-10-30T08:36:17",
+  "hours": 0.345,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": false,
+  "found_typed": false,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 30"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "b",
+    "the founding decides more than modules: ['module', 'role']"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 5,
+  "guards": [],
+  "turns": 34,
+  "sel": {
+   "arm": "N",
+   "decisions": 29,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 29
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 166,
+   "founder": 29
+  },
+  "usd": {
+   "member|fireworks": 0.4989,
+   "founder|anthropic": 0.21
+  },
+  "usd_total": 0.7089,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 1
+ },
+ {
+  "slot": 35,
+  "member": "glm",
+  "block": 6,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-11",
+  "ran": true,
+  "end": "2026-10-30T08:14:25",
+  "hours": 0.298,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 155,
+   "founder": 25
+  },
+  "usd": {
+   "member|fireworks": 0.4423,
+   "founder|anthropic": 0.1856
+  },
+  "usd_total": 0.6279,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 36,
+  "member": "glm",
+  "block": 6,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-12",
+  "ran": true,
+  "end": "2026-10-30T08:31:29",
+  "hours": 0.284,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 14"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 116,
+   "founder": 27
+  },
+  "usd": {
+   "member|fireworks": 0.3275,
+   "founder|anthropic": 0.2112
+  },
+  "usd_total": 0.5386,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 37,
+  "member": "glm",
+  "block": 7,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-13",
+  "ran": true,
+  "end": "2026-10-30T08:56:27",
+  "hours": 0.305,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "W",
+   "decisions": 24,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 144,
+   "founder": 25
+  },
+  "usd": {
+   "member|fireworks": 0.4154,
+   "founder|anthropic": 0.1716
+  },
+  "usd_total": 0.587,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 38,
+  "member": "glm",
+  "block": 7,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-14",
+  "ran": true,
+  "end": "2026-10-30T09:15:21",
+  "hours": 0.314,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "N",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 136,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3703,
+   "founder|anthropic": 0.1847
+  },
+  "usd_total": 0.555,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 39,
+  "member": "glm",
+  "block": 8,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-15",
+  "ran": true,
+  "end": "2026-10-30T08:55:55",
+  "hours": 0.327,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "W",
+   "decisions": 27,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 28
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 154,
+   "founder": 28
+  },
+  "usd": {
+   "member|fireworks": 0.443,
+   "founder|anthropic": 0.1916
+  },
+  "usd_total": 0.6346,
+  "l17": true,
+  "att": 3,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 40,
+  "member": "glm",
+  "block": 8,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-16",
+  "ran": true,
+  "end": "2026-10-30T09:14:38",
+  "hours": 0.311,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 33,
+  "sel": {
+   "arm": "N",
+   "decisions": 28,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 29
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 152,
+   "founder": 29
+  },
+  "usd": {
+   "member|fireworks": 0.3961,
+   "founder|anthropic": 0.2111
+  },
+  "usd_total": 0.6072,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 41,
+  "member": "glm",
+  "block": 9,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-17",
+  "ran": true,
+  "end": "2026-10-30T08:49:20",
+  "hours": 0.297,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "W",
+   "decisions": 25,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 25
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 170,
+   "founder": 25
+  },
+  "usd": {
+   "member|fireworks": 0.4399,
+   "founder|anthropic": 0.1703
+  },
+  "usd_total": 0.6102,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 42,
+  "member": "glm",
+  "block": 9,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-18",
+  "ran": true,
+  "end": "2026-10-30T09:03:51",
+  "hours": 0.241,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "N",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 142,
+   "founder": 24
+  },
+  "usd": {
+   "member|fireworks": 0.298,
+   "founder|anthropic": 0.1628
+  },
+  "usd_total": 0.4608,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 43,
+  "member": "glm",
+  "block": 10,
+  "pos": 1,
+  "arm": "N",
+  "run": "b3b-glm-19",
+  "ran": true,
+  "end": "2026-10-30T09:32:07",
+  "hours": 0.279,
+  "label": "arm not delivered",
+  "per_protocol": false,
+  "arm_delivered": false,
+  "found_typed": false,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "b",
+    "the founding decides more than modules: ['module', 'role']"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "N",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 133,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3298,
+   "founder|anthropic": 0.1878
+  },
+  "usd_total": 0.5175,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 1
+ },
+ {
+  "slot": 44,
+  "member": "glm",
+  "block": 10,
+  "pos": 2,
+  "arm": "W",
+  "run": "b3b-glm-20",
+  "ran": true,
+  "end": "2026-10-30T09:52:59",
+  "hours": 0.347,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 16"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 3,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "W",
+   "decisions": 27,
+   "refused_answers": 2,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 29
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 168,
+   "founder": 29
+  },
+  "usd": {
+   "member|fireworks": 0.4453,
+   "founder|anthropic": 0.2093
+  },
+  "usd_total": 0.6547,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 1
+ },
+ {
+  "slot": 45,
+  "member": "glm",
+  "block": 11,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-21",
+  "ran": true,
+  "end": "2026-10-30T09:32:09",
+  "hours": 0.291,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 0,
+  "guards": [],
+  "turns": 29,
+  "sel": {
+   "arm": "W",
+   "decisions": 24,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 24
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 139,
+   "founder": 24
+  },
+  "usd": {
+   "member|fireworks": 0.3627,
+   "founder|anthropic": 0.1719
+  },
+  "usd_total": 0.5347,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 46,
+  "member": "glm",
+  "block": 11,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-22",
+  "ran": true,
+  "end": "2026-10-30T09:50:19",
+  "hours": 0.302,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 14"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 32,
+  "sel": {
+   "arm": "N",
+   "decisions": 27,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 27
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 142,
+   "founder": 27
+  },
+  "usd": {
+   "member|fireworks": 0.3841,
+   "founder|anthropic": 0.2138
+  },
+  "usd_total": 0.5978,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ },
+ {
+  "slot": 47,
+  "member": "glm",
+  "block": 12,
+  "pos": 1,
+  "arm": "W",
+  "run": "b3b-glm-23",
+  "ran": true,
+  "end": "2026-10-30T09:21:23",
+  "hours": 0.292,
+  "label": "valid",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 31,
+  "sel": {
+   "arm": "W",
+   "decisions": 26,
+   "refused_answers": 0,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 147,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3929,
+   "founder|anthropic": 0.1694
+  },
+  "usd_total": 0.5623,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 3
+ },
+ {
+  "slot": 48,
+  "member": "glm",
+  "block": 12,
+  "pos": 2,
+  "arm": "N",
+  "run": "b3b-glm-24",
+  "ran": true,
+  "end": "2026-10-30T09:37:59",
+  "hours": 0.276,
+  "label": "valid, flagged",
+  "per_protocol": true,
+  "arm_delivered": true,
+  "found_typed": true,
+  "brief_by_16": true,
+  "probes": true,
+  "locks": 0,
+  "flags": [
+   "forced advance (F limit) at turn 14"
+  ],
+  "aborted": null,
+  "error": null,
+  "found": [
+   [
+    "FOUND",
+    "modules exactly the arm's (claim-discipline, record-keeping); nothing else structural"
+   ]
+  ],
+  "session1": {
+   "kind": "close",
+   "why": "reply to line 21"
+  },
+  "f_sent": 2,
+  "guards": [],
+  "turns": 30,
+  "sel": {
+   "arm": "N",
+   "decisions": 25,
+   "refused_answers": 1,
+   "classifier_refusals": {},
+   "fallback_served": 0,
+   "served_by": {
+    "claude-opus-5-5": 26
+   },
+   "decided_by_F_after_two_refusals": 0
+  },
+  "refused": [],
+  "failed": {},
+  "calls": {
+   "member": 139,
+   "founder": 26
+  },
+  "usd": {
+   "member|fireworks": 0.3436,
+   "founder|anthropic": 0.1896
+  },
+  "usd_total": 0.5332,
+  "l17": true,
+  "att": 1,
+  "refused_draft": null,
+  "check_errors": 0,
+  "sealed_suspect": 0
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "haiku": {
+  "member|anthropic": 10.2566,
+  "total": 15.0119,
+  "founder|anthropic": 4.7553,
+  "hours": 5.71
+ },
+ "ALL": {
+  "anthropic": 19.6383,
+  "total": 28.902,
+  "fireworks": 9.2637
+ },
+ "glm": {
+  "member|fireworks": 9.2637,
+  "total": 13.8901,
+  "founder|anthropic": 4.6264,
+  "hours": 7.287
+ }
+}

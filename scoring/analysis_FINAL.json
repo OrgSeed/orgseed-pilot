@@ -1,0 +1,1583 @@
+{
+ "design": "batch 3b: W vs N on the final brief, ITT, stratified exact test",
+ "cut_local_new_york": "2026-10-31T08:00:00",
+ "members": [
+  "haiku",
+  "glm"
+ ],
+ "k": 2,
+ "blocks_complete": {
+  "haiku": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "glm": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ "blocks_not_run": {
+  "haiku": [],
+  "glm": []
+ },
+ "founding_validity": {
+  "haiku": {
+   "W": {
+    "completed": 12,
+    "valid": 10,
+    "labels": [
+     "arm not delivered",
+     "valid"
+    ]
+   },
+   "N": {
+    "completed": 12,
+    "valid": 12,
+    "labels": [
+     "valid",
+     "valid, flagged"
+    ]
+   }
+  },
+  "glm": {
+   "W": {
+    "completed": 12,
+    "valid": 12,
+    "labels": [
+     "valid",
+     "valid, flagged"
+    ]
+   },
+   "N": {
+    "completed": 12,
+    "valid": 8,
+    "labels": [
+     "arm not delivered",
+     "valid",
+     "valid, flagged"
+    ]
+   }
+  }
+ },
+ "primary": {
+  "arms": [
+   "W",
+   "N"
+  ],
+  "outcome": "final",
+  "by_member": {
+   "haiku": {
+    "W": [
+     0,
+     12
+    ],
+    "N": [
+     5,
+     12
+    ],
+    "voids": [
+     0,
+     0
+    ],
+    "rate": [
+     0.0,
+     0.4166666666666667
+    ],
+    "diff": {
+     "diff": -0.4167,
+     "ci95": [
+      -0.6805,
+      -0.087
+     ]
+    }
+   },
+   "glm": {
+    "W": [
+     2,
+     12
+    ],
+    "N": [
+     12,
+     12
+    ],
+    "voids": [
+     0,
+     0
+    ],
+    "rate": [
+     0.16666666666666666,
+     1.0
+    ],
+    "diff": {
+     "diff": -0.8333,
+     "ci95": [
+      -0.953,
+      -0.4619
+     ]
+    }
+   }
+  },
+  "voids": {
+   "W": 0,
+   "N": 0
+  },
+  "pooled": {
+   "W": [
+    2,
+    24,
+    [
+     0.0232,
+     0.2585
+    ]
+   ],
+   "N": [
+    17,
+    24,
+    [
+     0.5083,
+     0.8509
+    ]
+   ],
+   "diff": {
+    "diff": -0.625,
+    "ci95": [
+     -0.7797,
+     -0.3591
+    ]
+   }
+  },
+  "test": {
+   "T": 2,
+   "p_two_sided": 1e-06,
+   "reject_at_0.025": true
+  },
+  "bounds": {
+   "voids_toward_null": {
+    "T": 2,
+    "p_two_sided": 1e-06,
+    "reject_at_0.025": true
+   },
+   "voids_away_from_null": {
+    "T": 2,
+    "p_two_sided": 1e-06,
+    "reject_at_0.025": true
+   }
+  },
+  "unmarked_reading": {
+   "pooled": {
+    "W": [
+     2,
+     24,
+     [
+      0.0232,
+      0.2585
+     ]
+    ],
+    "N": [
+     11,
+     24,
+     [
+      0.2789,
+      0.6493
+     ]
+    ],
+    "diff": {
+     "diff": -0.375,
+     "ci95": [
+      -0.5752,
+      -0.1242
+     ]
+    }
+   },
+   "test": {
+    "T": 2,
+    "p_two_sided": 0.007857,
+    "reject_at_0.025": true
+   }
+  }
+ },
+ "beside_per_member": {
+  "haiku": {
+   "arms": [
+    "W",
+    "N"
+   ],
+   "outcome": "final",
+   "by_member": {
+    "haiku": {
+     "W": [
+      0,
+      12
+     ],
+     "N": [
+      5,
+      12
+     ],
+     "voids": [
+      0,
+      0
+     ],
+     "rate": [
+      0.0,
+      0.4166666666666667
+     ],
+     "diff": {
+      "diff": -0.4167,
+      "ci95": [
+       -0.6805,
+       -0.087
+      ]
+     }
+    }
+   },
+   "voids": {
+    "W": 0,
+    "N": 0
+   },
+   "pooled": {
+    "W": [
+     0,
+     12,
+     [
+      0.0,
+      0.2425
+     ]
+    ],
+    "N": [
+     5,
+     12,
+     [
+      0.1933,
+      0.6805
+     ]
+    ],
+    "diff": {
+     "diff": -0.4167,
+     "ci95": [
+      -0.6805,
+      -0.087
+     ]
+    }
+   },
+   "test": {
+    "T": 0,
+    "p_two_sided": 0.037267,
+    "reject_at_0.025": false
+   },
+   "bounds": {
+    "voids_toward_null": {
+     "T": 0,
+     "p_two_sided": 0.037267,
+     "reject_at_0.025": false
+    },
+    "voids_away_from_null": {
+     "T": 0,
+     "p_two_sided": 0.037267,
+     "reject_at_0.025": false
+    }
+   },
+   "unmarked_reading": {
+    "pooled": {
+     "W": [
+      0,
+      12,
+      [
+       0.0,
+       0.2425
+      ]
+     ],
+     "N": [
+      5,
+      12,
+      [
+       0.1933,
+       0.6805
+      ]
+     ],
+     "diff": {
+      "diff": -0.4167,
+      "ci95": [
+       -0.6805,
+       -0.087
+      ]
+     }
+    },
+    "test": {
+     "T": 0,
+     "p_two_sided": 0.037267,
+     "reject_at_0.025": false
+    }
+   }
+  },
+  "glm": {
+   "arms": [
+    "W",
+    "N"
+   ],
+   "outcome": "final",
+   "by_member": {
+    "glm": {
+     "W": [
+      2,
+      12
+     ],
+     "N": [
+      12,
+      12
+     ],
+     "voids": [
+      0,
+      0
+     ],
+     "rate": [
+      0.16666666666666666,
+      1.0
+     ],
+     "diff": {
+      "diff": -0.8333,
+      "ci95": [
+       -0.953,
+       -0.4619
+      ]
+     }
+    }
+   },
+   "voids": {
+    "W": 0,
+    "N": 0
+   },
+   "pooled": {
+    "W": [
+     2,
+     12,
+     [
+      0.047,
+      0.448
+     ]
+    ],
+    "N": [
+     12,
+     12,
+     [
+      0.7575,
+      1.0
+     ]
+    ],
+    "diff": {
+     "diff": -0.8333,
+     "ci95": [
+      -0.953,
+      -0.4619
+     ]
+    }
+   },
+   "test": {
+    "T": 2,
+    "p_two_sided": 6.7e-05,
+    "reject_at_0.025": true
+   },
+   "bounds": {
+    "voids_toward_null": {
+     "T": 2,
+     "p_two_sided": 6.7e-05,
+     "reject_at_0.025": true
+    },
+    "voids_away_from_null": {
+     "T": 2,
+     "p_two_sided": 6.7e-05,
+     "reject_at_0.025": true
+    }
+   },
+   "unmarked_reading": {
+    "pooled": {
+     "W": [
+      2,
+      12,
+      [
+       0.047,
+       0.448
+      ]
+     ],
+     "N": [
+      6,
+      12,
+      [
+       0.2538,
+       0.7462
+      ]
+     ],
+     "diff": {
+      "diff": -0.3333,
+      "ci95": [
+       -0.6071,
+       0.0405
+      ]
+     }
+    },
+    "test": {
+     "T": 2,
+     "p_two_sided": 0.193027,
+     "reject_at_0.025": false
+    }
+   }
+  }
+ },
+ "beside_valid_foundings_only": {
+  "stratified": {
+   "arms": [
+    "W",
+    "N"
+   ],
+   "outcome": "final",
+   "by_member": {
+    "haiku": {
+     "W": [
+      0,
+      10
+     ],
+     "N": [
+      5,
+      12
+     ],
+     "voids": [
+      0,
+      0
+     ],
+     "rate": [
+      0.0,
+      0.4166666666666667
+     ],
+     "diff": {
+      "diff": -0.4167,
+      "ci95": [
+       -0.6805,
+       -0.0604
+      ]
+     }
+    },
+    "glm": {
+     "W": [
+      2,
+      12
+     ],
+     "N": [
+      8,
+      8
+     ],
+     "voids": [
+      0,
+      0
+     ],
+     "rate": [
+      0.16666666666666666,
+      1.0
+     ],
+     "diff": {
+      "diff": -0.8333,
+      "ci95": [
+       -0.953,
+       -0.4039
+      ]
+     }
+    }
+   },
+   "voids": {
+    "W": 0,
+    "N": 0
+   },
+   "pooled": {
+    "W": [
+     2,
+     22,
+     [
+      0.0253,
+      0.2781
+     ]
+    ],
+    "N": [
+     13,
+     20,
+     [
+      0.4329,
+      0.8188
+     ]
+    ],
+    "diff": {
+     "diff": -0.5591,
+     "ci95": [
+      -0.7402,
+      -0.2724
+     ]
+    }
+   },
+   "test": {
+    "T": 2,
+    "p_two_sided": 2.1e-05,
+    "reject_at_0.025": true
+   },
+   "bounds": {
+    "voids_toward_null": {
+     "T": 2,
+     "p_two_sided": 2.1e-05,
+     "reject_at_0.025": true
+    },
+    "voids_away_from_null": {
+     "T": 2,
+     "p_two_sided": 2.1e-05,
+     "reject_at_0.025": true
+    }
+   },
+   "unmarked_reading": {
+    "pooled": {
+     "W": [
+      2,
+      22,
+      [
+       0.0253,
+       0.2781
+      ]
+     ],
+     "N": [
+      10,
+      20,
+      [
+       0.2993,
+       0.7007
+      ]
+     ],
+     "diff": {
+      "diff": -0.4091,
+      "ci95": [
+       -0.6202,
+       -0.1346
+      ]
+     }
+    },
+    "test": {
+     "T": 2,
+     "p_two_sided": 0.004881,
+     "reject_at_0.025": true
+    }
+   }
+  },
+  "per_member": {
+   "haiku": {
+    "arms": [
+     "W",
+     "N"
+    ],
+    "outcome": "final",
+    "by_member": {
+     "haiku": {
+      "W": [
+       0,
+       10
+      ],
+      "N": [
+       5,
+       12
+      ],
+      "voids": [
+       0,
+       0
+      ],
+      "rate": [
+       0.0,
+       0.4166666666666667
+      ],
+      "diff": {
+       "diff": -0.4167,
+       "ci95": [
+        -0.6805,
+        -0.0604
+       ]
+      }
+     }
+    },
+    "voids": {
+     "W": 0,
+     "N": 0
+    },
+    "pooled": {
+     "W": [
+      0,
+      10,
+      [
+       0.0,
+       0.2775
+      ]
+     ],
+     "N": [
+      5,
+      12,
+      [
+       0.1933,
+       0.6805
+      ]
+     ],
+     "diff": {
+      "diff": -0.4167,
+      "ci95": [
+       -0.6805,
+       -0.0604
+      ]
+     }
+    },
+    "test": {
+     "T": 0,
+     "p_two_sided": 0.06015,
+     "reject_at_0.025": false
+    },
+    "bounds": {
+     "voids_toward_null": {
+      "T": 0,
+      "p_two_sided": 0.06015,
+      "reject_at_0.025": false
+     },
+     "voids_away_from_null": {
+      "T": 0,
+      "p_two_sided": 0.06015,
+      "reject_at_0.025": false
+     }
+    },
+    "unmarked_reading": {
+     "pooled": {
+      "W": [
+       0,
+       10,
+       [
+        0.0,
+        0.2775
+       ]
+      ],
+      "N": [
+       5,
+       12,
+       [
+        0.1933,
+        0.6805
+       ]
+      ],
+      "diff": {
+       "diff": -0.4167,
+       "ci95": [
+        -0.6805,
+        -0.0604
+       ]
+      }
+     },
+     "test": {
+      "T": 0,
+      "p_two_sided": 0.06015,
+      "reject_at_0.025": false
+     }
+    }
+   },
+   "glm": {
+    "arms": [
+     "W",
+     "N"
+    ],
+    "outcome": "final",
+    "by_member": {
+     "glm": {
+      "W": [
+       2,
+       12
+      ],
+      "N": [
+       8,
+       8
+      ],
+      "voids": [
+       0,
+       0
+      ],
+      "rate": [
+       0.16666666666666666,
+       1.0
+      ],
+      "diff": {
+       "diff": -0.8333,
+       "ci95": [
+        -0.953,
+        -0.4039
+       ]
+      }
+     }
+    },
+    "voids": {
+     "W": 0,
+     "N": 0
+    },
+    "pooled": {
+     "W": [
+      2,
+      12,
+      [
+       0.047,
+       0.448
+      ]
+     ],
+     "N": [
+      8,
+      8,
+      [
+       0.6756,
+       1.0
+      ]
+     ],
+     "diff": {
+      "diff": -0.8333,
+      "ci95": [
+       -0.953,
+       -0.4039
+      ]
+     }
+    },
+    "test": {
+     "T": 2,
+     "p_two_sided": 0.000714,
+     "reject_at_0.025": true
+    },
+    "bounds": {
+     "voids_toward_null": {
+      "T": 2,
+      "p_two_sided": 0.000714,
+      "reject_at_0.025": true
+     },
+     "voids_away_from_null": {
+      "T": 2,
+      "p_two_sided": 0.000714,
+      "reject_at_0.025": true
+     }
+    },
+    "unmarked_reading": {
+     "pooled": {
+      "W": [
+       2,
+       12,
+       [
+        0.047,
+        0.448
+       ]
+      ],
+      "N": [
+       5,
+       8,
+       [
+        0.3057,
+        0.8632
+       ]
+      ],
+      "diff": {
+       "diff": -0.4583,
+       "ci95": [
+        -0.7249,
+        -0.0328
+       ]
+      }
+     },
+     "test": {
+      "T": 2,
+      "p_two_sided": 0.104231,
+      "reject_at_0.025": false
+     }
+    }
+   }
+  }
+ },
+ "unread_numbers": 0,
+ "alpha": 0.025,
+ "reading": "any = any script-flagged number the reader codes other, or any non-pack citation (R-52); unmarked beside (R-53); no final brief = void, bounds both ways (S-1)",
+ "rows": [
+  {
+   "run": "b3b-haiku-01",
+   "member": "haiku",
+   "block": 1,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-02",
+   "member": "haiku",
+   "block": 1,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-03",
+   "member": "haiku",
+   "block": 2,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-04",
+   "member": "haiku",
+   "block": 2,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-05",
+   "member": "haiku",
+   "block": 3,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 2,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-haiku-06",
+   "member": "haiku",
+   "block": 3,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-07",
+   "member": "haiku",
+   "block": 4,
+   "arm": "W",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-08",
+   "member": "haiku",
+   "block": 4,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-09",
+   "member": "haiku",
+   "block": 5,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-10",
+   "member": "haiku",
+   "block": 5,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-11",
+   "member": "haiku",
+   "block": 6,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-12",
+   "member": "haiku",
+   "block": 6,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-13",
+   "member": "haiku",
+   "block": 7,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 2,
+    "citations_flagged": 1
+   }
+  },
+  {
+   "run": "b3b-haiku-14",
+   "member": "haiku",
+   "block": 7,
+   "arm": "W",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-15",
+   "member": "haiku",
+   "block": 8,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-16",
+   "member": "haiku",
+   "block": 8,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-17",
+   "member": "haiku",
+   "block": 9,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 3,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-18",
+   "member": "haiku",
+   "block": 9,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-19",
+   "member": "haiku",
+   "block": 10,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-20",
+   "member": "haiku",
+   "block": 10,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 4,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-21",
+   "member": "haiku",
+   "block": 11,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-22",
+   "member": "haiku",
+   "block": 11,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-23",
+   "member": "haiku",
+   "block": 12,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-haiku-24",
+   "member": "haiku",
+   "block": 12,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 4,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-01",
+   "member": "glm",
+   "block": 1,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 7,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-02",
+   "member": "glm",
+   "block": 1,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-03",
+   "member": "glm",
+   "block": 2,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-04",
+   "member": "glm",
+   "block": 2,
+   "arm": "N",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 5,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-05",
+   "member": "glm",
+   "block": 3,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-06",
+   "member": "glm",
+   "block": 3,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 5,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-07",
+   "member": "glm",
+   "block": 4,
+   "arm": "N",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 3,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-08",
+   "member": "glm",
+   "block": 4,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-09",
+   "member": "glm",
+   "block": 5,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 3,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-10",
+   "member": "glm",
+   "block": 5,
+   "arm": "N",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 3,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-11",
+   "member": "glm",
+   "block": 6,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 3,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-12",
+   "member": "glm",
+   "block": 6,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 7,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-13",
+   "member": "glm",
+   "block": 7,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-14",
+   "member": "glm",
+   "block": 7,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 2,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-15",
+   "member": "glm",
+   "block": 8,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-16",
+   "member": "glm",
+   "block": 8,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-17",
+   "member": "glm",
+   "block": 9,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 0,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-18",
+   "member": "glm",
+   "block": 9,
+   "arm": "N",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 3,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-19",
+   "member": "glm",
+   "block": 10,
+   "arm": "N",
+   "valid": false,
+   "label": "arm not delivered",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 3,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-20",
+   "member": "glm",
+   "block": 10,
+   "arm": "W",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 1,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-21",
+   "member": "glm",
+   "block": 11,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-22",
+   "member": "glm",
+   "block": 11,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 0,
+    "numbers_flagged": 4,
+    "citations_flagged": 2
+   }
+  },
+  {
+   "run": "b3b-glm-23",
+   "member": "glm",
+   "block": 12,
+   "arm": "W",
+   "valid": true,
+   "label": "valid",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 0,
+    "unmarked": 0,
+    "numbers_flagged": 2,
+    "citations_flagged": 0
+   }
+  },
+  {
+   "run": "b3b-glm-24",
+   "member": "glm",
+   "block": 12,
+   "arm": "N",
+   "valid": true,
+   "label": "valid, flagged",
+   "aborted": null,
+   "error": null,
+   "final": {
+    "any": 1,
+    "unmarked": 1,
+    "numbers_flagged": 2,
+    "citations_flagged": 2
+   }
+  }
+ ]
+}

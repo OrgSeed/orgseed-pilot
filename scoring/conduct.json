@@ -1,0 +1,98 @@
+{
+ "per_run": {
+  "b3b-haiku-07": {
+   "arm": "W",
+   "label": "arm not delivered",
+   "reasons": [
+    "other: no founding decision recorded by the member (founding lock fired, forced advance)"
+   ]
+  },
+  "b3b-haiku-14": {
+   "arm": "W",
+   "label": "arm not delivered",
+   "reasons": [
+    "other: arm lines not delivered (found_typed True)"
+   ]
+  },
+  "b3b-glm-04": {
+   "arm": "N",
+   "label": "arm not delivered",
+   "reasons": [
+    "founding decided more than modules: module, role"
+   ]
+  },
+  "b3b-glm-07": {
+   "arm": "N",
+   "label": "arm not delivered",
+   "reasons": [
+    "founding decided more than modules: module, role_instance"
+   ]
+  },
+  "b3b-glm-10": {
+   "arm": "N",
+   "label": "arm not delivered",
+   "reasons": [
+    "founding decided more than modules: module, role"
+   ]
+  },
+  "b3b-glm-19": {
+   "arm": "N",
+   "label": "arm not delivered",
+   "reasons": [
+    "founding decided more than modules: module, role"
+   ]
+  }
+ },
+ "per_member_arm": {
+  "haiku": {
+   "W": {
+    "valid": 10,
+    "other: no founding decision recorded by the member (founding lock fired, forced advance)": 1,
+    "other: arm lines not delivered (found_typed True)": 1
+   },
+   "N": {
+    "valid": 12
+   }
+  },
+  "glm": {
+   "N": {
+    "valid": 8,
+    "founding decided more than modules: module, role": 3,
+    "founding decided more than modules: module, role_instance": 1
+   },
+   "W": {
+    "valid": 12
+   }
+  }
+ },
+ "valid_conduct": {
+  "haiku": {
+   "valid runs": 22,
+   "valid, flagged": 3,
+   "forced advances (F limit)": 3,
+   "runs with a forced advance": 3,
+   "F sent (founder fallback turns)": 17,
+   "founding locks fired": 0,
+   "runs with a check error flag": 0,
+   "selector refused answers": 3,
+   "selector fallback served": 0,
+   "turns": 684,
+   "founding note names the add-on declaration (A arms)": 0,
+   "azure failed replies (rate limit) in valid runs": 0
+  },
+  "glm": {
+   "valid runs": 20,
+   "valid, flagged": 4,
+   "forced advances (F limit)": 4,
+   "runs with a forced advance": 4,
+   "F sent (founder fallback turns)": 21,
+   "founding locks fired": 0,
+   "runs with a check error flag": 0,
+   "selector refused answers": 8,
+   "selector fallback served": 0,
+   "turns": 618,
+   "founding note names the add-on declaration (A arms)": 0,
+   "azure failed replies (rate limit) in valid runs": 0
+  }
+ }
+}
