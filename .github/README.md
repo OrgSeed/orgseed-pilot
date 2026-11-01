@@ -1,10 +1,10 @@
 # OrgSeed pilot: plan, code and scoring data
 
-OrgSeed is a seed for a human–AI organization: a folder of plain files that a scholar grows, in conversation with an AI model, into an organization of their own. This repository holds the plan, the code and the scoring data of the pilot's second batch, called batch 3b in the files. **It does not hold the seed.** The version of the seed the pilot ran, v1.3.2, is in [`OrgSeed/orgseed`](https://github.com/OrgSeed/orgseed).
+OrgSeed is a seed for a human–AI organization: a folder of plain files that a scholar grows, in conversation with an AI model, into an organization of their own. This repository holds the plan, the code and the scoring data of the pilot's second batch, called batch 3b in the files. **It does not hold the seed.** The version of the seed the pilot ran, v1.3.2, is in [`OrgSeed/orgseed`](https://github.com/OrgSeed/orgseed). In the pilot the founder was a script. AI agents wrote this code at the author's direction, and the author has not yet verified it line by line.
 
 ## Frozen before the runs
 
-The second batch's plan was frozen, fingerprinted and committed before the runs. The first commit here, `7b6768e`, holds it: the plan, the SHA-256 fingerprint of each file, the analysis and reader code, the reader prompts, the lane table and the run order. Later commits add this page, the two licence files, a `.gitattributes` that keeps line endings exact, and the `scoring/` folder, and change none of those files. To check: `git diff --stat 7b6768e HEAD`.
+The second batch's plan was frozen, fingerprinted and committed before the runs. The first commit here, `7b6768e`, holds it: the plan, the SHA-256 fingerprint of each file, the analysis and reader code, the reader prompts, the lane table (how runs were dealt to parallel slots) and the run order. Later commits add this page, the two licence files, a `.gitattributes` that keeps line endings exact, and the `scoring/` folder, and change none of those files. To check: `git diff --stat 7b6768e HEAD`.
 
 The plan's line 61 says "The seed published with the paper is v1.4.0". The plan stays as it was frozen. The seed published here is v1.3.2, which the same line names as the one the evidence uses.
 
@@ -24,7 +24,7 @@ The plan's line 61 says "The seed published with the paper is v1.4.0". The plan 
 | `scoring/cost_b3b.json` | Cost by member |
 | `scoring/HASHES.txt` | SHA-256 of the scoring files |
 
-`scoring/HASHES.txt` also lists item-level reading files and readers' answers. Those are not published here, and neither are the run records or the test bench. So `sha256sum -c HASHES.txt`, run in `scoring/`, confirms the five data files above and reports the others as missing.
+`scoring/HASHES.txt` also lists item-level reading files and readers' answers. Those are not published here, and neither are the run records or the test bench. So `sha256sum -c --ignore-missing HASHES.txt`, run in `scoring/`, confirms the five data files above; without that option it also reports the others as missing.
 
 ## Licence
 
