@@ -6,7 +6,7 @@ OrgSeed is a seed for a human–AI organization: a folder of plain files that a 
 
 The second batch's plan was frozen, fingerprinted and committed before the runs. The first commit here, `7b6768e`, holds it: the plan, the SHA-256 fingerprint of each file, the analysis and reader code, the reader prompts, the lane table (how runs were dealt to parallel slots) and the run order. Later commits add this page, the two licence files, a `.gitattributes` that keeps line endings exact, and the `scoring/` folder, and change none of those files. To check: `git diff --stat 7b6768e HEAD`.
 
-The plan's line 61 says "The seed published with the paper is v1.4.0". The plan stays as it was frozen. The seed published here is v1.3.2, which the same line names as the one the evidence uses.
+The plan's line 61 says "The seed published with the paper is v1.4.0". The plan stays as it was frozen. The seed we publish, in the other repository, is v1.3.2, which the same line names as the one the evidence uses.
 
 ## What is here
 
